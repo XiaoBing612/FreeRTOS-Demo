@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\FreeRTOS\7、任务栈溢出检测方法二\Project\RVMDK(uv4)\ISO_Template.uvproj
+Project File Date:  01/11/2017
+
+<h2>Output:</h2>
+Build target 'ISO_Template'
+linking...
+Program Size: Code=10956 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 0 Warning(s).
+Build target 'ISO_Template'
+linking...
+Program Size: Code=10956 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 0 Warning(s).
+Build target 'ISO_Template'
+compiling main.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\User\main.c(66): warning:  #1-D: last line of file ends without a newline
+compiling board.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.c(26): warning:  #1-D: last line of file ends without a newline
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling tasks.c...
+compiling timers.c...
+compiling heap_4.c...
+compiling port.c...
+compiling led.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_led\led.c(35): warning:  #1-D: last line of file ends without a newline
+compiling key.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.c(51): warning:  #940-D: missing return statement at end of non-void function "Key1_Scan"
+..\..\HardWare\bsp_key\key.c(70): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.c(70): warning:  #940-D: missing return statement at end of non-void function "Key2_Scan"
+compiling usart1.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.c(51): warning:  #1-D: last line of file ends without a newline
+compiling task_led.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.c(66): warning:  #1-D: last line of file ends without a newline
+compiling task_key.c...
+..\..\HardWare\bsp_led\led.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_led\task_led.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_board\board.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_key\key.h(19): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.h(18): warning:  #1-D: last line of file ends without a newline
+..\..\HardWare\bsp_usart1\usart1.h(17): warning:  #1-D: last line of file ends without a newline
+..\..\User\bsp_includes\includes.h(46): warning:  #1-D: last line of file ends without a newline
+..\..\Task\bsp_task_key\task_key.c(50): warning:  #550-D: variable "buf" was set but never used
+..\..\Task\bsp_task_key\task_key.c(69): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=10988 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 59 Warning(s).
+Build target 'ISO_Template'
+linking...
+Program Size: Code=10988 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 0 Warning(s).
+Build target 'ISO_Template'
+linking...
+Program Size: Code=10988 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 0 Warning(s).
+Build target 'ISO_Template'
+linking...
+Program Size: Code=10988 RO-data=336 RW-data=144 ZI-data=18632  
+FromELF: creating hex file...
+"..\..\Output\ISO_Template.axf" - 0 Errors, 0 Warning(s).
